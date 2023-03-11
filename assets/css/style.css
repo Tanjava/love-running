@@ -25,6 +25,7 @@ h1, h2 {
 #logo {
     float:left;
     font-size: 200%;
+    margin-left: 30px;
 }
 
 
@@ -61,7 +62,7 @@ h1, h2 {
 }
 
 
-/* ----- hero image and cover text ----- */
+/* ----- hero image ----- */
 
 #hero-outer {
     height: 600px;
@@ -69,10 +70,6 @@ h1, h2 {
     overflow: hidden; 
 
     position: relative;
-}
-
-#cover-text, #cover-text h2 {
-    color: white;
 }
 
 #hero-image {
@@ -100,6 +97,10 @@ h1, h2 {
 
 /* ----- cover text ----- */
 
+#cover-text, #cover-text h2 {
+    color: white;
+}
+
 #cover-text {
     font-size: 130%;
     font-family: 'Oswald', sans-serif;
@@ -120,3 +121,55 @@ h1, h2 {
     position: absolute;
 }
 
+/* ----- club ethos ----- */
+
+#club-ethos {
+    height: 600px;
+}
+
+#left-about {
+    padding-top: 30px;
+    width: 33%;
+    float:left;
+}
+
+#right-about {
+    padding-top: 30px;
+    width: 33%;
+    float: right;
+}
+
+#center-about {
+    width: 33%;
+    margin: 0 auto;
+    background-color: green;
+}
+
+hr {
+    border-top: 1px solid #3a3a3a;
+    width: 100%;
+    margin: 5px;
+}
+
+.about-heading {
+    width: 60%;
+    line-height: 20px;
+    clear: both;
+    margin-bottom: 40px;
+}
+
+.left-ah {
+    float: right;
+}
+
+.right-ah {
+    float: left;
+}
+
+.right-ah h2 {
+    text-align: right;
+}
+
+.right-ah p {
+    text-align: right;
+}
