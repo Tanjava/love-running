@@ -176,10 +176,7 @@ hr {
     float: left;
 }
 
-.right-ah h2 {
-    text-align: right;
-}
-
+.right-ah h2,
 .right-ah p {
     text-align: right;
 }
@@ -270,7 +267,7 @@ footer {
 
 /* for larger to medium screen size from 1200px wide and down */
 @media screen and (max-width: 1200px) {
-    
+
     #club-ethos {
         width: 65%;
         height: 1200px;
@@ -311,5 +308,32 @@ footer {
         margin-left: 30px;
         margin-bottom: 20px;
         line-height: 25px;
+    }
+
+    #cover-text {
+        left: 0;
+    }
+
+    #club-ethos {
+        width: 90%;
+        height: 1200px;
+        margin: 0 auto;
+    }
+
+    .left-ah,
+    .right-ah {
+        width: inherit;
+    }
+
+    .left-ah h2,
+    .right-ah h2 {
+        width: 100%;
+        text-align: center;
+    }
+
+    .left-ah p,
+    .right-ah p {
+        text-align: center;
+        padding: 0 20px;
     }
 }
